@@ -1,0 +1,5 @@
+.table-container {
+    height: 200px; /* Adjusted to fit 5 rows */
+    overflow-y: auto;
+    border: 1px solid #d8dde6; /* Adds a subtle border */
+}
