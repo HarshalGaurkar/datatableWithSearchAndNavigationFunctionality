@@ -18,4 +18,6 @@ A **Sales Representative** wants a quick overview of **Closed Won Opportunities*
 - If there are more than 5 records, they can scroll to see additional opportunities.  
 
 This component **enhances user efficiency** by providing a quick, interactive way to manage opportunities **without navigating multiple pages**.
-<!-- Uploading "DataTabelAndItsNavigation LWC Component.mp4"... -->
+
+### **Component Demo** 
+https://github.com/user-attachments/assets/f5fab3a4-781e-4355-8db8-e45f0855aa1c
