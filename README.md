@@ -1,18 +1,20 @@
-# Salesforce DX Project: Next Steps
+#### **Lightning Web Component: DataTable with Navigation & Search**  
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This **Lightning Web Component (LWC)** displays a list of **Opportunities** in a **scrollable datatable**, allowing users to:  
+- **View Opportunity Details** by clicking the record name.  
+- **Edit Opportunity Records** with an action button.  
+- **Search Opportunities** dynamically using a search box.  
+- **Navigate to Record Pages** using Lightning Navigation Service.  
+- **Show Only 5 Records at a Time**, with a scrollbar for additional records.  
 
-## How Do You Plan to Deploy Your Changes?
+---
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+### **Scenario**  
 
-## Configure Your Salesforce DX Project
+A **Sales Representative** wants a quick overview of **Closed Won Opportunities** in a table format.  
+- They can **search by name** to find a specific record.  
+- They can **view** an opportunity in a new tab.  
+- They can **edit** an opportunity directly from the table.  
+- If there are more than 5 records, they can scroll to see additional opportunities.  
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+This component **enhances user efficiency** by providing a quick, interactive way to manage opportunities **without navigating multiple pages**.
