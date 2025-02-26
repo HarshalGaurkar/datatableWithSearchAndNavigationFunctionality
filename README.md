@@ -1,5 +1,9 @@
 # 📊 Datatable with Search & Navigation - LWC Component
 
+## 🎥 Component Demo
+https://github.com/user-attachments/assets/f5c11a6b-8c55-402d-9ef9-12ca9aeb0732
+
+
 A **Lightning Web Component (LWC)** designed for Salesforce that provides a **searchable, paginated, and navigable datatable**. This component enhances the standard Salesforce datatable by adding advanced features for better user experience and efficiency.
 
 ## 📌 Features  
